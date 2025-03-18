@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>HTML5 images, lists, tables, forms and input types</title>
+</head>
+<h1>Ordered List with Roman Numerals</h1>
+<ol type="I">
+    <li>Avocado </li>
+    <li>Banana</li>
+    <li>Apple</li>
+    <li>Grapes</li>
+    <li>Orange</li>
+    <li>Pineapple</li>
+    <li>Watermelon</li>
+</ol>
+
+<h1>Image from Pexels.com</h1>
+<img src="Fruits.jpeg" alt="Types of Fruits" width="350" height="350">
+
+<h1>Table</h1>
+<table border="1">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Address</th>
+            <th>Mobile</th>
+            <th>Email</th>
+        </tr>
+        <tr>
+            <td>Janet</td>
+            <td>Westlands</td>
+            <td>+254000567788</td>
+            <td>janet@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Alice</td>
+            <td>Nairobi City</td>
+            <td>+25420567788</td>
+            <td>alice@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Grace</td>
+            <td>Loresho</td>
+            <td>+25410567799</td>
+            <td>grace@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Irene</td>
+            <td>Mountain View</td>
+            <td>+254569565632</td>
+            <td>irene@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Catherine</td>
+            <td>Runda</td>
+            <td>+25489564311</td>
+            <td>catherine@gmail.com</td>
+        </tr>
+    </thead>
+</table>
+
+<h1>Registration Form</h1>
+<form action="" method="post">
+<!---name field-->
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required placeholder="Enter your full names"><br><br>
+
+<!---email field-->
+    <label for="email">Email:</label>
+    <input type="text" placeholder="example@gmail.com" id="email" name="email" required><br><br>
+
+<!---password field-->
+    <label for="Password">Password:</label>
+    <input type="password" id="password" name="password" required><br><br>
+
+<!---date field-->
+    <label for="dob">Date of Birth</label>
+    <input type="date" id="dob" name="dob" required><br><br>
+
+    <!---dropdown field-->
+    <label>Country</label>
+    <select name="Country" id="country">
+        <option>--Select Country--</option>
+        <option>Kenya</option>
+        <option>Tanzania</option>
+        <option>Uganda</option>
+        <option>Rwanda</option>
+        <option>Burundi</option>
+    </select><br><br>
+
+<!--radio buttons-->
+<label for="gender">Gender:</label>
+<input type="radio" name="gender" value="female" required>Female
+<input type="radio" name="gender" value="male" required>Male
+<br><br>
+
+<!---checkboxes--->
+<label for="hobbies">Hobbies</label>
+<input type="checkbox" name="hobby" value="singing">Singing
+<input type="checkbox" name="hobby" value="swimming">Swimming
+<input type="checkbox" name="hobby" value="dance">Dance
+<input type="checkbox" name="hobby" value="painting">Painting
+<input type="checkbox" name="hobby" value="photography">Photography
+</form><br>
+
+<!--register button-->
+<button type="submit">Register</button>
+<body> 
+</body>
+</html>
